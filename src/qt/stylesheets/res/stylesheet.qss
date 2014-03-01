@@ -1,0 +1,78 @@
+AboutDialog QLabel {
+	color: #FFFFFF;
+}
+
+QCheckBox {
+	spacing: 5px;
+	color: #FFFFFF;
+}
+
+QCheckBox::indicator {
+	width: 16px;
+	height: 16px;
+}
+
+QComboBox {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+QComboBox:on {
+	color: #FFFFFF;
+}
+
+QFrame {
+	background-color: #323232;
+}
+
+QLineEdit {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+QMainWindow {
+	background: #000000; 
+	color: white; 
+}
+
+QLabel {
+	color: white;
+} 
+
+/* Default style for buttons */
+QPushButton {
+	background-color: #323232;
+	color: #FFFFFF;
+}
+
+QPushButton:hover {
+	background-color: grey;
+}
+
+/* Modifying a single button, the generate new address button */
+QPushButton#newAddressButton {
+	background-color: #323232;
+	color: red;
+}
+
+QScrollBar::handle:vertical {
+	background: #323232;
+	min-width: 20px;
+}
+
+QSpinBox {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+QHeaderView::section {
+	background-color: grey;
+	color: #FFFFFF;
+	padding-left: 5px;
+	border: 0px solid #6c6c6c;
+	text-align:left;
+}
+
+QDialog {
+	background-color: #323232;
+}

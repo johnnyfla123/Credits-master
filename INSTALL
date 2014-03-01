@@ -1,0 +1,9 @@
+Building Credits
+
+See doc/readme-qt.rst for instructions on building Credits-QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Credits.
+
+See doc/build-*.txt for instructions on building Creditsd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Litecoin.
